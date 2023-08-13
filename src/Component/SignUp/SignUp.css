@@ -1,0 +1,64 @@
+/* SignUp.css */
+.form-container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 10px auto;
+    padding-left: 50px;
+    
+    
+}
+.login{
+    text-align: center;
+   
+}
+.form-control label{
+    display: block;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+}
+.form-control input{
+    width: 410px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 20px;
+    
+}
+.btn-submit{
+    width: 415px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 30px;
+    background-color: burlywood;
+    font-size: 20px;
+}
+.btn-submit:hover{
+    background-color: goldenrod;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .form-container {
+        max-width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    /* Additional style adjustments */
+    .form-control label {
+        font-size: 14px;
+    }
+    
+    .form-control input {
+        font-size: 14px;
+        padding: 8px;
+        max-width: 90%;
+    }
+    
+    .btn-submit {
+        font-size: 16px;
+        max-width: 90%;
+    }
+   
+}
